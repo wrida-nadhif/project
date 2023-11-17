@@ -1,0 +1,157 @@
+/*font-family: 'Arimo', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Geologica', sans-serif;
+font-family: 'Hanken Grotesk', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Sans Tamil Supplement', sans-serif;*/
+
+.container{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: red;
+    border-radius: 10px;
+     
+}
+.box-1{ font-family: Hanken Grotesk ,sans-serif ;
+    font-size:18px;
+    background-color: hsl(241, 81%, 54%);
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    width: 50%;
+    border-radius:10px;
+}
+
+.box-2{ font-family: Hanken Grotesk, sans-serif ;
+    font-size:18px;
+    display: flex;
+    justify-content:space-between;
+    text-align:center;
+    align-items:center;
+    flex-direction: column ;
+    background-color:hsl(241, 100%, 89%) ;
+    width: 50%;
+    height: auto;
+margin-bottom: 20px;
+display:inline-block;
+gap: 40px;
+
+}
+
+
+.box-1 h2{ font-family: Hanken Grotesk ,sans-serif;
+    font-size:18px;
+    color:hsl(221, 100%, 96%) ;
+    
+}
+
+.Result{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+    background-color:hsla(241, 56%, 44%, 0) 
+    hsla(256, 72%, 46%, 1);}
+
+
+.Result span :nth-of-type(1){
+    color: hsl(221, 100%, 96%); font-family: Hanken Grotesk ;
+    font-size:50px;
+    font-weight: 600;
+    font: bold;
+    
+}
+ .Result span :nth-of-type(2){ font-family: Hanken Grotesk ;
+    font-size:20px;
+    color: hsl(240, 4%, 69%);
+}
+
+h1{ font-family: Hanken Grotesk ,sans-serif;
+    font-size:40px;
+color:hsl(221, 100%, 96%) ;
+font-weight: 800 bold;
+}
+
+ p{ font-family: Hanken Grotesk ;
+    font-size:25px;
+    color: hsl(241, 100%, 89%);
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.7;
+    font-weight: lighter;
+}
+
+.box-2 a{margin-left: 10px;
+    margin-bottom: 10px;
+    color: hsl(224, 30%, 27%);
+    font-family: Hanken Grotesk, sans-serif ;
+    font-size:24px;
+}
+.box-2.text1{ font-family: Hanken Grotesk ;
+    font-size:18px;
+    display: flex;
+    justify-content:space-between;
+}
+.text1{
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 8PX 25px;
+    display: flex;
+    align-items: center;
+}
+.label1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.label2{display: flex;
+justify-content: right;
+align-items: center;}
+.text1 a{color:hsl(0, 100%, 67%) ;
+font-size: 18px;
+}
+    
+.box-2.text1 span:nth-of-type(2){
+    font-family: Hanken Grotesk ;
+    font-size:18px;
+    border-color: blue;
+    border-radius: 4px;
+    padding: 2px;
+
+}
+
+.text2 span:nth-of-type(1){ color:hsl(39, 100%, 56%) ;
+justify-content: space-between;
+font-family: Hanken Grotesk ;
+font-size:18px;
+   
+}
+
+
+.box-2.text3 span:nth-of-type(1){ color:hsl(166, 100%, 37%) ;
+    font-family: Hanken Grotesk ;
+    font-size:18px;
+   }
+
+
+.box-2.text4  span:nth-of-type(1){
+    color: hsl(234, 85%, 45%);
+    font-family: Hanken Grotesk ;
+    font-size:18px;
+}
+
+
+.box-2 button{
+    background-color:hsl(224, 30%, 27%) ;
+    font-family: Hanken Grotesk ;
+    font-size:18px;
+border-radius: 45px;}

@@ -1,0 +1,82 @@
+body {
+  background-color: #bfb5ac;
+}
+.card {
+  background-color: white;
+  width: 60%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-left: 20%;
+}
+
+.card img {
+  width: 50%;
+}
+
+.text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0% 6% 0% 6%;
+  text-align: left;
+
+  background-color: white;
+  height: 100%;
+}
+.text span {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  color: hwb(240 66% 32%);
+  margin-bottom: 5px;
+}
+
+.text h1 {
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: "abril fatface", serif;
+  color: hsl(218, 44%, 22%);
+  font-weight: bold;
+}
+.text p {
+  margin-top: 5px;
+  color: gray;
+  font-size: 15px;
+  width: 80%;
+  line-height: 1.7;
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.label h3 {
+  font-size: 40px;
+  color: rgb(25, 85, 42);
+  font-weight: bold;
+  font-family: "fraunces";
+  margin: 0%;
+}
+.label h6 del {
+  margin-left: 15px;
+  font-size: 15px;
+  color: hsl(225, 4%, 20%);
+  font-weight: bold;
+  font-family: "fraunces";
+}
+.text button {
+  font-family: sans-serif;
+  color: white;
+  background-color: #145a29;
+  padding: 16px 40px;
+  border-radius: 10px;
+  width: 85%;
+  border: none;
+  font-weight: bold;
+}
+.label {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
